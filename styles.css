@@ -1,0 +1,18 @@
+body {
+    padding: 20px;
+    background-color: #F2E3DB;
+  }
+
+.card {
+    border-width: 5px;
+    border-radius: 25%;
+    background-color: #263A29;
+}
+
+.card-text {
+    color: #E86A33;
+}
+
+#header {
+    color: #41644A;
+}
