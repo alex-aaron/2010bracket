@@ -1,18 +1,40 @@
 body {
     padding: 20px;
-    background-color: #456b7a;
+    background-color: black;
   }
 
 .card {
-    border-width: 5px;
-    border-radius: 25%;
-    background-color: #263A29;
+    padding: 10px;
 }
 
 .card-text {
-    color: #E86A33;
+    color: #3a4c6a;
 }
 
 #header {
     color: #f2e54f;
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#first-card {
+    margin-top: 60px;
+}
+
+.navbar-brand {
+    font-family: title;
+}
+
+@font-face {
+    font-family: title;
+    src: url("./fonts/tommy.otf");
+}
+
+@font-face {
+    font-family: card;
+    src: url("./fonts/bank-printer.otf");
 }
